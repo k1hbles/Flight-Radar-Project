@@ -1,0 +1,55 @@
+#map { height: calc(100dvh - 56px);}
+body {
+    margin: 0px;
+    padding: 0px;
+    height:100dvh;}
+
+.navbar-brand {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration-color: black;
+}
+
+#flightSign {
+    --bs-offcanvas-width: 250px;
+    --bs-offcanvas-bg: white;
+    --bs-offcanvas-color: black;
+    top: 56px;
+    bottom: 0;
+    border-right: 1px solid lightgray;
+}
+
+#flightSign .offcanvas-header {
+    border-bottom: 1px solid lightgray;
+    background-color: white;
+}
+
+#flightSign .offcanvas-body {
+    background-color: whitesmoke;
+    padding: 16px;
+}
+
+.flight-call {
+    margin: 6px ;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.flight-country {
+    margin: 14px ;
+    color: dimgray;
+}
+
+.flight-section {
+    margin: 10px ;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+.flight-line {
+    margin: 8px ;
+    padding-bottom: 8px;
+    border-bottom: 1px solid gainsboro;
+    color: black;
+}
